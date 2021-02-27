@@ -3,7 +3,7 @@ node_js:
   - "v11.14.0"  # nodejs version
 branches:
   only:
-  - master    # build branch
+  - main    # build branch
 cache:
   directories:
   - node_modules # cache dir
@@ -16,6 +16,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
+  github-token: $GITHUB_TOKEN
   local-dir: ./_book/  # static output
   target-branch: gh-pages
   verbose: true
