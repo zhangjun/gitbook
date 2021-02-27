@@ -8,11 +8,12 @@ cache:
   directories:
   - node_modules # cache dir
 before_install:
-- export TZ='Asia/Shanghai'  # set timezone
+  - export TZ='Asia/Shanghai'  # set timezone
 install:
- - npm install -g gitbook-cli # install compile tool
+  - npm install -g gitbook-cli # install compile tool
+  - gitbook install
 script:
-- gitbook build
+  - gitbook build
 deploy:
   provider: pages
   skip-cleanup: true
