@@ -1,6 +1,6 @@
 language: node_js # language
 node_js:
-  - "v11.14.0"  # nodejs version
+  - "v10.14.1"  # nodejs version
 branches:
   only:
   - main    # build branch
