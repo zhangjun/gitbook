@@ -34,14 +34,14 @@
     "github-buttons": {
       "buttons": [{
         "user": "zhangjun",
-        "repo": "notes",
+        "repo": "gitbook",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
     "editlink": {
-      "base": "https://github.com/zhangjun/notes/blob/master",
+      "base": "https://github.com/zhangjun/gitbook/blob/main",
       "label": "Edit",
       "multilingual": false
     },
